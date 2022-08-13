@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 1.5rem;
+    color: #111111;
+    background-color: #815926;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Helvetica", "Arial", sans-serif;
+    background-color: #F8D480;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+h2 {
+    font-size: 1.6em;
+    margin: 10px;
+}
+
+p {
+    font-size: 1em;
+    margin: 15px;
+}
+
+strong, em {
+    background-color: #E7A40B;
+}
+
+.page {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin: 0 10%;
+}
+
+.menu {
+    display: flex;
+    overflow: hidden;
+    border: 1px solid red; /* deggubing */
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.button {
+    display: block;
+    /*float: left;*/
+    color: #FFF;
+    background-color: #E9AA0D;
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 20%;
+    height: 30%;
+    margin: 15px;
+
+}
+
+.red {
+    background-color: #F00;
+}
+
+.quote {
+    color: #4E495D;
+    font-style: italic;
+}
+
+.quote em {
+    font-style: normal;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
